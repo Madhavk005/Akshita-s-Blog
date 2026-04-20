@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art of Typography in Modern Interfaces | Akshita's Blog</title>
+    <meta name="description" content="Read the full article about typography in web design.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .post-header {
+            padding: 4rem 0 2rem 0;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .post-header .category {
+            margin-bottom: 1.5rem;
+        }
+        .post-header h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            letter-spacing: -1px;
+        }
+        .post-meta {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .post-meta span.dot {
+            font-size: 0.5rem;
+        }
+        .post-image {
+            width: 100%;
+            height: 60vh;
+            min-height: 400px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin: 2rem auto 4rem auto;
+            max-width: 1000px;
+            display: block;
+        }
+        .post-content {
+            max-width: 680px;
+            margin: 0 auto 6rem auto;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: #333;
+        }
+        .post-content p {
+            margin-bottom: 1.8rem;
+        }
+        .post-content h2 {
+            font-size: 2rem;
+            margin: 3rem 0 1.5rem 0;
+            font-family: 'Playfair Display', serif;
+        }
+        .post-content blockquote {
+            border-left: 3px solid var(--text-main);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            font-size: 1.3rem;
+            color: var(--text-main);
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">Akshita's Blog</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="articles.html" class="active">Articles</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Post Header -->
+    <header class="post-header container">
+        <span class="category">Typography</span>
+        <h1>The Art of Typography in Modern Interfaces</h1>
+        <div class="post-meta">
+            <span>By Akshita</span>
+            <span class="dot">•</span>
+            <span>April 20, 2026</span>
+            <span class="dot">•</span>
+            <span>4 min read</span>
+        </div>
+    </header>
+
+    <!-- Post Image -->
+    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1200&h=800" alt="Typography layout" class="post-image">
+
+    <!-- Post Content -->
+    <article class="post-content container">
+        <p>Typography is the voice of your design. It's how you communicate your brand's personality before a single word is even read. From the bold, assertive strokes of a sans-serif header to the delicate curves of a serif body text, every typographic choice matters.</p>
+
+        <p>In a world where interfaces are becoming increasingly minimal, text often takes center stage. It’s not just about what you say, but how you display it.</p>
+
+        <h2>The Anatomy of Readability</h2>
+
+        <p>Great typography goes far beyond picking a nice font. It’s rooted in the subtle adjustments: line height, letter spacing, and line length. If a user needs to strain their eyes to differentiate between a '1', an 'l', and an 'I', the typography has failed.</p>
+
+        <blockquote>"Type is a beautiful group of letters, not a group of beautiful letters."</blockquote>
+
+        <p>We need to think of typography as a functional tool first, and an aesthetic one second. Establishing a clear hierarchy ensures that users can scan a page and intuitively understand the structure of the content within seconds.</p>
+
+        <h2>Where to Start</h2>
+
+        <p>If you're overwhelmed by font pairings and CSS properties, start with the basics:</p>
+
+        <p>
+            <strong>1. Alignment:</strong> Left-aligned text is generally the easiest to read for long paragraphs.<br>
+            <strong>2. Contrast:</strong> Ensure your text color has enough contrast against the background to be legible for all users.<br>
+            <strong>3. Hierarchy:</strong> Use size, weight, and color to distinguish between primary headers, secondary headers, and body text.
+        </p>
+
+        <p>Ultimately, mastering typography is an ongoing journey of observing how letters interact with each other and with empty space. Keep reading, keep designing, and always respect the power of the written word.</p>
+
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+                <a href="#">Dribbble</a>
+            </div>
+            <p>&copy; 2026 Akshita's Blog. Crafted with HTML & CSS.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

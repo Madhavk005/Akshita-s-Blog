@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshita's Blog | Exploring the Art of Intentional Living</title>
+    <meta name="description" content="A clean, minimal blog aesthetic inspired by modern design.">
+    <!-- Google Fonts: Inter & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Akshita's Blog</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero container">
+        <div class="hero-text">
+            <h1>Exploring Graphic Design</h1>
+            <p>Curated thoughts on typography, UI/UX, and visual storytelling.</p>
+        </div>
+        <div class="hero-image">
+            <!-- Featured blog banner image -->
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1200&h=500" alt="Graphic design workspace">
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <div class="container content-area">
+        
+        <!-- Blog Cards Grid -->
+        <main class="blog-grid">
+            
+            <!-- Card 1 -->
+            <article class="card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=600&h=400" alt="Typography layout">
+                </div>
+                <div class="card-content">
+                    <span class="category">Typography</span>
+                    <h2><a href="#">The Art of Typography in Modern Interfaces</a></h2>
+                    <p>Exploring how font choices, letter spacing, and line heights can drastically affect the readability and overall aesthetic of your digital products.</p>
+                    <a href="post.html" class="read-more">Read Article <span class="arrow">→</span></a>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=600&h=400" alt="Branding materials">
+                </div>
+                <div class="card-content">
+                    <span class="category">Branding</span>
+                    <h2><a href="#">Building a Cohesive Brand Identity</a></h2>
+                    <p>A strong brand identity goes beyond just a logo. Dive into creating a comprehensive design system that communicates your core values.</p>
+                    <a href="post.html" class="read-more">Read Article <span class="arrow">→</span></a>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?auto=format&fit=crop&q=80&w=600&h=400" alt="UI UX design sketches">
+                </div>
+                <div class="card-content">
+                    <span class="category">UI/UX</span>
+                    <h2><a href="#">Designing for Accessibility First</a></h2>
+                    <p>Why inclusive design is not just an afterthought but a fundamental requirement in creating seamless user experiences for everyone.</p>
+                    <a href="post.html" class="read-more">Read Article <span class="arrow">→</span></a>
+                </div>
+            </article>
+
+        </main>
+
+        <!-- Sidebar Setup -->
+        <aside class="sidebar">
+            
+            <!-- Author Profile -->
+            <div class="widget author-profile">
+                <h3>Akshita</h3>
+                <p>Graphic designer and visual storyteller sharing thoughts on modern web design, typography, and UI/UX.</p>
+            </div>
+
+            <!-- Categories -->
+            <div class="widget categories-list">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Typography <span>(12)</span></a></li>
+                    <li><a href="#">Branding <span>(8)</span></a></li>
+                    <li><a href="#">UI/UX <span>(15)</span></a></li>
+                    <li><a href="#">Illustration <span>(6)</span></a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="widget newsletter">
+                <h3>Subscribe</h3>
+                <p>Get the latest posts delivered right to your inbox.</p>
+                <form action="#" method="get" onsubmit="event.preventDefault(); alert('Subscribed!');">
+                    <input type="email" placeholder="Your email address" required aria-label="Email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+        </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+                <a href="#">Dribbble</a>
+            </div>
+            <p>&copy; 2026 Akshita's Blog. Crafted with HTML & CSS.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
